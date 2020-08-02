@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(217, 28%, 15%);
+  color: white;
+  font-size: 14px;
+}
+p {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+img{
+
+}
+header{
+  margin-bottom: 60px;
+}
+.nav{
+  background-color: hsl(218, 28%, 13%);
+}
+.nav_list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+.nav-logo{
+  margin: 1rem 1rem;
+  width: 6rem;
+}
+.push-right{
+  margin-left: auto;
+}
+.nav-item{
+  margin-right: 2rem;
+}
+.nav-item:hover{
+  cursor: pointer;
+}
+.intro{
+background-image: url("../images/bg-curvy-desktop.svg");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center bottom;
+}
+.intro-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro-content{
+  text-align: center;
+}
+.btn{
+  padding: 15px 60px;
+  background-color: hsl(198, 60%, 50%) ;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.grid{
+  background-color:hsl(218, 28%, 13%);
+  padding: 100px;
+}
+.grid-item{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+.grid-last{
+  margin-top: 100px;
+}
+.prod-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.productive{
+  text-align: left;
+}
+.work{
+  font-size: 15px;
+  color: hsl(176, 68%, 64%);
+  margin-top: 5px;
+}
+
+@media (min-width:768px) {
+  .col-sm-6{
+    float: left;
+    width: 50%;
+  }
+  .grid-last{
+    clear: left;
+    display: flex;
+  }
+  .grid-item{
+    padding: 5%;
+  }
+}
