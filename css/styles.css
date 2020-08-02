@@ -63,7 +63,7 @@ background-position: center bottom;
 }
 .grid{
   background-color:hsl(218, 28%, 13%);
-  padding: 100px;
+  padding: 50px;
 }
 .grid-item{
   width: 90%;
