@@ -28,13 +28,13 @@ header{
 }
 .nav-logo{
   margin: 1rem 1rem;
-  width: 6rem;
+  width: 4rem;
 }
 .push-right{
   margin-left: auto;
 }
 .nav-item{
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 .nav-item:hover{
   cursor: pointer;
@@ -106,6 +106,13 @@ background-position: center bottom;
 }
 .card{
   margin-top: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(219, 30%, 18%);
+  text-align: center;
+  padding: 5%;
+  box-shadow: 4px 4px 20px black;
 }
 .profile{
   width: 40px;
@@ -120,7 +127,38 @@ background-position: center bottom;
   line-height: 1.5;
   text-align: left;
 }
-
+input{
+  width: 95%;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  padding: 5px;
+  display: block;
+  margin-top: 20px;
+}
+.emailbtn{
+  padding: 5px 20px;
+}
+footer{
+  background-color: hsl(216, 53%, 9%);
+  padding: 5%;
+}
+footer li{
+  list-style: none;
+}
+.ftr, .contact, .list1,.list2{
+  font-size: 15px;
+  text-align: left;
+  margin-top: 30px;
+  padding: 3px;
+}
+.icon-footer{
+  margin-right: 8px;
+}
+.logo{
+  text-align: center;
+}
 
 @media (min-width:768px) {
   .intro-logo{
@@ -150,5 +188,24 @@ background-position: center bottom;
   .card{
     clear: left;
     margin-top: 100px;
+  }
+  input{
+    width: 50%;
+    display: inline;
+  }
+  .emailbtn{
+    padding: 15px 60px;
+  }
+  footer{
+    display: flex;
+  }
+  .ftr{
+    width: 25%;
+  }
+  .contact, .list1,.list2 {
+    width: 20%;
+  }
+  .logo{
+    width: 15%;
   }
 }
